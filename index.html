@@ -2,18 +2,28 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-video {
-  max-width: 100%;
-  height: auto;
+.video-container {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
 }
-</style>
+
+.video-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
 </head>
 <body>
 
-<video width="1280" controls>
-  <source src="https://www.youtube.com/embed/f_ecSLNyscE">
-</video>
+<div class="video-container">  
+  <iframe width="2543" height="768" src="https://www.youtube.com/embed/f_ecSLNyscE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+  </iframe>
+</div>
 
 </body>
 </html>
