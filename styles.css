@@ -6,6 +6,8 @@
 
 body {
   background-color: #3c4245;
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
 }
 
 a,
@@ -24,14 +26,10 @@ a:visited {
 
 .stuff-container {
   color: #dfcdc3;
-  font-family: "raleway";
-  font-size: 30px;
 }
 
 .social-container {
   color: #dfcdc3;
-  font-family: "raleway";
-  font-size: 30px;
   text-align: right;
 }
 
