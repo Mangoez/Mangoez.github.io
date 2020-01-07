@@ -51,4 +51,9 @@ a:visited {
   .stuff-container {
     font-size: .6em;
   }
+  .video {
+    display: flex;
+    align-items: flex-start;
+    max-height: 300px;
+  }
 }
