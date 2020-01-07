@@ -20,9 +20,9 @@ a:visited {
 .header-container {
   background-color: #3c4245;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: auto;
-  padding: 20px 0 10px;
+  padding: 20px 20px 10px 20px;
   max-width: 1280px;
 }
 
@@ -68,14 +68,14 @@ a:visited {
 /* Mobile screen */
 @media only screen and (max-width: 600px) {
   .social-container,
-  .stuff-container {
+  .name-container {
     font-size: .6em;
   }
-  .video {
+  /* .video {
     display: flex;
     justify-content: center;
     max-height: 300px;
-  }
+  } */
   .video-holder img {
     width: 75%;
     height: 75%;
